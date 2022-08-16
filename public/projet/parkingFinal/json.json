@@ -1,0 +1,299 @@
+let mesQuartiers = [
+    {"quartier": [
+      {
+        "nom" : "1",
+        "nomRue" : "Rue de la Rive",
+        "disponibilite" : 0,
+        "heurePrise": 15,
+      },
+      {
+        "nom" : "2",
+        "nomRue" : "Rue de la Rive",
+        "disponibilite" : 1,
+        "heurePrise": 15,
+      },
+      {
+        "nom" : "3",
+        "nomRue" : "Rue de la Rive",
+        "disponibilite" : 0,
+        "heurePrise": 14,
+      },
+      {
+        "nom" : "4",
+        "nomRue" : "Rue de la Rive",
+        "disponibilite" : 1,
+        "heurePrise": 15,
+      },
+      {
+        "nom" : "5",
+        "nomRue" : "Rue de la Rive",
+        "disponibilite" : 0,
+        "heurePrise": 9,
+      },
+      {
+        "nom" : "6",
+        "nomRue" : "Rue de la Rive",
+        "disponibilite" : 0,
+        "heurePrise": 10,
+      },
+      {
+        "nom" : "1",
+        "nomRue" : "Rue des Genévriers",
+        "disponibilite" : 1,
+        "heurePrise": 4,
+      },
+      {
+        "nom" : "2",
+        "nomRue" : "Rue des Genévriers",
+        "disponibilite" : 0,
+        "heurePrise": 3,
+      },
+      {
+        "nom" : "3",
+        "nomRue" : "Rue des Genévriers",
+        "disponibilite" : 0,
+        "heurePrise": 12,
+      },
+      {
+        "nom" : "4",
+        "nomRue" : "Rue des Genévriers",
+        "disponibilite" : 1,
+        "heurePrise": 17,
+      },
+      {
+        "nom" : "5",
+        "nomRue" : "Rue des Genévriers",
+        "disponibilite" : 0,
+        "heurePrise": 18,
+      },
+      {
+        "nom" : "6",
+        "nomRue" : "Rue des Genévriers",
+        "disponibilite" : 0,
+        "heurePrise": 15,
+      }
+    ]},
+    {"quartier": [
+      {
+        "nom" : "1",
+        "nomRue" : "Rue des Castors",
+        "disponibilite" : 1,
+        "heurePrise": 4,
+      },
+      {
+        "nom" : "2",
+        "nomRue" : "Rue des Castors",
+        "disponibilite" : 0,
+        "heurePrise": 3,
+      },
+      {
+        "nom" : "3",
+        "nomRue" : "Rue des Castors",
+        "disponibilite" : 0,
+        "heurePrise": 12,
+      },
+      {
+        "nom" : "4",
+        "nomRue" : "Rue des Castors",
+        "disponibilite" : 1,
+        "heurePrise": 17,
+      },
+      {
+        "nom" : "5",
+        "nomRue" : "Rue des Castors",
+        "disponibilite" : 0,
+        "heurePrise": 18,
+      },
+      {
+        "nom" : "6",
+        "nomRue" : "Rue des Castors",
+        "disponibilite" : 1,
+        "heurePrise": 10,
+      },
+      {
+        "nom" : "1",
+        "nomRue" : "Rue du Colonel",
+        "disponibilite" : 0,
+        "heurePrise": 4,
+      },
+      {
+        "nom" : "2",
+        "nomRue" : "Rue du Colonel",
+        "disponibilite" : 0,
+        "heurePrise": 3,
+      },
+      {
+        "nom" : "3",
+        "nomRue" : "Rue du Colonel",
+        "disponibilite" : 1,
+        "heurePrise": 12,
+      },
+      {
+        "nom" : "4",
+        "nomRue" : "Rue du Colonel",
+        "disponibilite" : 0,
+        "heurePrise": 17,
+      },
+      {
+        "nom" : "5",
+        "nomRue" : "Rue du Colonel",
+        "disponibilite" : 0,
+        "heurePrise": 18,
+      },
+      {
+        "nom" : "6",
+        "nomRue" : "Rue du Colonel",
+        "disponibilite" : 0,
+        "heurePrise": 8,
+      }
+      ]},
+      {"quartier": [
+        {
+          "nom" : "1",
+          "nomRue" : "Rue des Hêtres",
+          "disponibilite" : 1,
+          "heurePrise": 4,
+        },
+        {
+          "nom" : "2",
+          "nomRue" : "Rue des Hêtres",
+          "disponibilite" : 0,
+          "heurePrise": 3,
+        },
+        {
+          "nom" : "3",
+          "nomRue" : "Rue des Hêtres",
+          "disponibilite" : 0,
+          "heurePrise": 12,
+        },
+        {
+          "nom" : "4",
+          "nomRue" : "Rue des Hêtres",
+          "disponibilite" : 1,
+          "heurePrise": 17,
+        },
+        {
+          "nom" : "5",
+          "nomRue" : "Rue des Hêtres",
+          "disponibilite" : 0,
+          "heurePrise": 18,
+        },
+        {
+          "nom" : "6",
+          "nomRue" : "Rue des Hêtres",
+          "disponibilite" : 0,
+          "heurePrise": 12,
+        },
+        {
+          "nom" : "1",
+          "nomRue" : "Chemin de l'École",
+          "disponibilite" : 1,
+          "heurePrise": 4,
+        },
+        {
+          "nom" : "2",
+          "nomRue" : "Chemin de l'École",
+          "disponibilite" : 0,
+          "heurePrise": 3,
+        },
+        {
+          "nom" : "3",
+          "nomRue" : "Chemin de l'École",
+          "disponibilite" : 0,
+          "heurePrise": 12,
+        },
+        {
+          "nom" : "4",
+          "nomRue" : "Chemin de l'École",
+          "disponibilite" : 1,
+          "heurePrise": 17,
+        },
+        {
+          "nom" : "5",
+          "nomRue" : "Chemin de l'École",
+          "disponibilite" : 0,
+          "heurePrise": 18,
+        },
+        {
+          "nom" : "6",
+          "nomRue" : "Chemin de l'École",
+          "disponibilite" : 0,
+          "heurePrise": 1,
+        }
+      ]},
+      {"quartier": [
+        {
+          "nom" : "1",
+          "nomRue" : "Rue des Terrasses",
+          "disponibilite" : 0,
+          "heurePrise": 4,
+        },
+        {
+          "nom" : "2",
+          "nomRue" : "Rue des Terrasses",
+          "disponibilite" : 1,
+          "heurePrise": 3,
+        },
+        {
+          "nom" : "3",
+          "nomRue" : "Rue des Terrasses",
+          "disponibilite" : 0,
+          "heurePrise": 12,
+        },
+        {
+          "nom" : "4",
+          "nomRue" : "Rue des Terrasses",
+          "disponibilite" : 1,
+          "heurePrise": 17,
+        },
+        {
+          "nom" : "5",
+          "nomRue" : "Rue des Terrasses",
+          "disponibilite" : 0,
+          "heurePrise": 18,
+        },
+        {
+          "nom" : "6",
+          "nomRue" : "Rue des Terrasses",
+          "disponibilite" : 0,
+          "heurePrise": 8,
+        },
+        {
+          "nom" : "1",
+          "nomRue" : "Rue de Bois",
+          "disponibilite" : 1,
+          "heurePrise": 4,
+        },
+        {
+          "nom" : "2",
+          "nomRue" : "Rue de Bois",
+          "disponibilite" : 0,
+          "heurePrise": 3,
+        },
+        {
+          "nom" : "3",
+          "nomRue" : "Rue de Bois",
+          "disponibilite" : 0,
+          "heurePrise": 12,
+        },
+        {
+          "nom" : "4",
+          "nomRue" : "Rue de Bois",
+          "disponibilite" : 1,
+          "heurePrise": 17,
+        },
+        {
+          "nom" : "5",
+          "nomRue" : "Rue de Bois",
+          "disponibilite" : 0,
+          "heurePrise": 18,
+        },
+        {
+          "nom" : "6",
+          "nomRue" : "Rue de Bois",
+          "disponibilite" : 1,
+          "heurePrise": 5,
+        }
+      ]}
+]
+  

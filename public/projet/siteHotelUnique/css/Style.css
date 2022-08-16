@@ -1,0 +1,255 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/BGHeader.jpg);
+    background-size: cover;
+    
+}
+
+.ordi{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 66px;
+    width: 80%;
+    margin: auto;
+}
+
+
+li{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+.bouton{
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.bouton:focus{
+    background-color: white;
+    color: black;
+}
+
+.bouton:hover{
+    background-color: #D3D3D3;
+    color: black;
+}
+
+.boutonli:hover{
+    background-color: #D3D3D3;
+}
+
+.portable{
+    display: none;
+}
+
+.menuport{
+    display: none;
+}
+
+.boutonport{
+    width: 10%;
+    height: 20%;
+    background-color: #D3D3D3;
+    color: black;
+}
+
+@media screen and (max-width : 1000px) {
+    .ordi{
+        display: none;
+    }
+
+    .menuport{
+        display: block;
+    }
+
+    .titreheader{
+        display: none;
+    }
+    
+    .imagemenu{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menuport:hover{
+        display: block;
+    }
+
+    .menuport:hover .portable{
+        display:block;
+    }
+
+    header{
+        height: 200px;        
+    }
+}
+
+.titreheader{
+    color: white;
+    font-size: xx-large;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Marge des pages*/
+.page{
+    width: 90%;
+    margin: auto;
+}
+
+.pageb{
+    width: 60%;
+    margin: auto;
+}
+
+/* Placement des élément des pages services et galery*/
+.grille{
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width : 1300px) {
+    .grille{
+        display: flex;
+        flex-direction: column;
+    }
+    .grande_grille{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5%;
+    }
+
+    
+}
+
+.casse{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    margin: 0.5%;
+}
+
+.cassebis{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0.5%;
+}
+
+.illustration{
+    margin-top: 1%;
+}
+.titrecasse{
+    color: white;
+}
+
+.textecasse{
+    color: white;
+    margin: 20px;
+}
+
+.titrehist{
+    text-align: center;
+}
+.textehist{
+    text-align: center;
+}
+
+.ligne{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.aligne{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.droite{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.colone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.entrer{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.entrertexte{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.social{
+    text-decoration:none; 
+    color:inherit;
+}
+.boutonenvoie{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.ecart{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social{
+    color: green;
+}
+
+span{
+    color: green;
+    font-size: small;
+}

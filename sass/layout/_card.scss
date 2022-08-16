@@ -1,0 +1,36 @@
+.card{
+    position: relative;
+    //background: red;
+    width: 35rem;
+    height: 45rem;
+    margin: $grid-gutter 0;
+    @include shadow($primary-color);
+    @include border($secondary-color);
+    @media screen and (min-width: 700px){
+        margin: $grid-gutter;
+    }
+    & img{
+        position: relative;
+        height: 40%;
+        width: 100%;
+    }
+    &__content{
+        position: relative;
+        width: 100%;
+        padding: 0 $grid-gutter;
+        & h3,p{
+            color: $white;
+            text-align: center; 
+            margin: $grid-gutter 0;
+        }
+        &__btn{
+            @include btn;
+            position: relative;
+            left: -1.5rem;
+            bottom: -3.2rem;
+            font-weight: 900;
+            font-style: italic;
+            font-size: 1.5rem
+        }
+    }
+}

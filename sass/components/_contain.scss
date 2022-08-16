@@ -1,0 +1,17 @@
+.contain{
+    width:90%;
+    //@include border($secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0rem auto;
+    padding: 1%;
+
+    @media screen and (min-width: 700px){
+        width: 70%;
+    }
+    h1{
+        color: $primary-color;  
+    }
+
+}

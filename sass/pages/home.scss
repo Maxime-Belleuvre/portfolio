@@ -1,0 +1,15 @@
+.quote{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 900;
+    font-style: italic;
+    margin: 5% 0;
+    color: $white;
+    @media screen and (min-width: 850px){
+        text-align: right;
+        margin: 2rem $layout-margin ($layout-margin)*-0.5 $layout-margin;
+    }
+    strong{
+        color: $primary-color;
+    }
+}

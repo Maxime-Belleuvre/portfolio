@@ -1,0 +1,64 @@
+/*
+Liste de backlog (taches) : 
+
+_______________________________________________________ NIVEAU 1 __________________________________________________________________________
+Fabriquer une div avec la class container dans le fichier HTML
+Lui attribuer un attribut ID unique
+
+Dans le javascript via la fonction document.getElementById, récupérer dans une variable la référence à la div container précédement créé
+déclarer un variable ligneRow, elle servira plus tard.
+Fabriquer une boucle for, elle doit permettre de parcourir le tableau "members" de l'objet mesHeros, utiliser la syntaxe mesHeros.members.length
+
+-- Dans cette boucle for on souhaite fabriquer une ligne (<div class="row">) toute les deux colonnes (pour mettre deux élément cote à cote)
+-- Plusieurs technique possible, ici je propose de faire une ligne à chaque index pair.
+
+Fabriquer une conditionnelle (if) : la condition pour rentrer dans le si est, si l'index de la boucle for est pair.
+Dans le if, fabriquer une div(via document.createElement("div");) et la stocker dans la variable ligneRow précédement créé
+via la variable ligneRow, utiliser la fonction add de la propriété classList pour ajouter la classe css "row"
+Afficher la ligne créé dans la div container précédement séléctionné -> fonction appendChild();
+
+Aprés le if, créer une varibable qui contient une nouvelle div (via document.createElement("div")) --> on fabrique ici les colonnes
+Ajouter la classe css "col-6" à cette div
+
+Fabriquer un paragraphe dans une variable document.createElement("p")
+Via la propriété textContent de la variable contenant le paragraphe précédement créer, attribuer la valeur du nom du héro en cours (mesHeros.members[i].name)
+Via la fonction appendChild, ajouter le paragraphe à la div colonne
+
+Fabriquer un paragraphe dans une variable via document.createElement("p")
+Via la propriété textContent de la variable contenant le paragraphe précédement créer, attribuer la valeur de l'identité secrete du héro en cours
+Via la fonction appendChild, ajouter le paragraphe à la div colonne
+
+Pour finir, via la fonction appendChild ajouter la colonne à la ligne (ligneRow)
+
+_______________________________________________________ NIVEAU 2 __________________________________________________________________________
+Ajouter un liste à puce avec chaque pouvoirs : 
+Avant l'ajout de la colonne à la ligne, fabriquer une élément ul dans une variable
+faire une for qui parcours chaque element du tableau "powers" du hero en cours
+pour chaque pouvoir fabriquer un element li
+définir le contenu texte de l'element li (le nom du pouvoir)
+ajouter l'element li à l'element ul précédement créer.
+Aprés la boucle for, ajouter l'élément ul à la colonne
+
+Ajouter du css et modificer le html créé pour faire un style "carte" à la bootstrap : 
+Modifier le fichier json est attribuer une url de photo à chaque héro
+Ajouter les classes css : card, text-white, bg-dark et h-100 à la div colonne
+Fabriquer une balise image, régler les attributs src et alt, ajouter la classe "card-img-top", fabriquer et ajouter une classe css custom pour régler la hauteur et la largeur
+Ajouter la balise image à la colonne
+
+Suppression de l'ancien paragraphe avec le nom
+Fabriquer une div avec la classe css card-body
+Fabriquer un element h5, ajouter le contenu nom + age au titre., ajouter la classe card-title, ajouter l'element h5 dans la div possedant la classe card-body
+
+Suppression du paragraphe identité secrete
+
+Fabriquer un paragraphe avec la class class-text dans le quel on ajoute la liste à puce, puis ajouter le paragraphe dans la div avec la class card
+
+
+_______________________________________________________ NIVEAU 3 __________________________________________________________________________
+Fonctionnalité en plus création de hero via formulaire + suppression de hero + sauvegarde dans le localstorage
+
+
+_______________________________________________________ NIVEAU 4 __________________________________________________________________________
+Tout mettre sous forme de fonctions
+
+*/

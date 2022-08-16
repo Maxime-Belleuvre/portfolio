@@ -1,0 +1,28 @@
+body {
+    font-family: $primary-font;
+    font-size: 2rem;
+    line-height: 1.7;
+}
+
+h1{
+    font-family: $primary-font;
+    font-size: 4.5rem;
+    font-weight: 900;
+
+}
+
+button {
+    font-family: $secondary-font;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+
+p{
+    font-family: $secondary-font;
+    font-weight: 600;
+    font-size: 2rem;
+    color: $white;
+    text-align: justify;
+}

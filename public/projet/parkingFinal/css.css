@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 2%;
+}
+.margeTop{
+    margin-top: 2%;
+}
+
+.margeDroite{
+    margin-right:  2%;
+}
+
+.margeBas{
+    margin-bottom: 2%;
+}
+
+.blanc{
+    color: white;
+}
+
+.bordure{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.lienSansDeco{
+    color: white;
+    text-decoration: none;
+}
+.tailleImage{
+    height: 40vh;
+    width: auto;
+    border: 1px white solid;
+}
+.tailleImage:hover{
+    transform: scale(1.05);
+}
+.sansmarge{
+    padding: 0;
+}
+/*CHECCK BOX ADMIN */
+    #admin{
+        appearance: none;
+    }
+    label .curseur{
+        cursor: pointer;
+    }
+    label ion-icon{
+        color: rgb(255,255,255,0.25);
+        font-size: 250%;
+    }
+    label input:checked ~ ion-icon{
+        color: rgb(255,255,255,1);
+    }
+#nom{
+    margin: 1% 0;
+}
+#nomDeLaRue{
+    margin: 1% 0;
+}
+#heure{
+    margin-bottom: 1%;
+}

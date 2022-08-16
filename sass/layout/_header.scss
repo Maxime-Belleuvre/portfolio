@@ -1,0 +1,22 @@
+.header{
+    background: $primary-color;
+    min-height:10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    z-index: 5;
+    @media screen and (min-width: 850px){
+        flex-direction:row;
+        justify-content: space-around;
+        position: sticky;
+        top:0;
+    
+    }
+    & h1{
+        color: $secondary-color;
+        text-align: center;
+    }
+}

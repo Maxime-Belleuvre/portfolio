@@ -1,0 +1,22 @@
+@mixin border($colour:$primary-color) {
+    border: .2rem solid $colour;
+}
+
+@mixin btn{
+    padding: 1rem;
+    @include border;
+    color: $primary-color;
+    background: $secondary-color;
+    &:hover{
+        background: $primary-color;
+        color: $background-dark;
+    }
+    &--full-width {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@mixin shadow($colour: $primary-color){
+    box-shadow: 0.2rem 0.2rem 0.2rem $colour;
+}
